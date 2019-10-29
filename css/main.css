@@ -1,12 +1,60 @@
 /* --------General-------- */
+
 html {
   box-sizing: border-box;
-
-  background-color: #ffe500;
+  background-color: #fff;
   line-height: 1.5;
-  font-family: Gergia, Sigmar one;
+  font-family: Georgia, "Sigmar one";
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+/* -------Box Styling-------- */
+
+header {
+  display: block;
+  background-color: #ffe500;
+  font-family: Georgia;
+  text-align: center;
+  padding: .5em .3em .2em;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Sigmar one";
+  color: #b20953;
+}
+
+.nav li {
+  display: inline-block;
+  background-color: #b2a212;
+  text-align: center;
+  border-radius: 4px;
+  font-family: Georgia;
+  color: #fff;
+  margin: .3em;
+}
+
+.nav a:hover {
+  background-color: #b20953;
+}
+
+body h2 {
+  font-family: "Sigmar one";
+  color: #b20953;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  background-color: #ffe500;
+  padding: 0;
+  margin: .3em;
 }
